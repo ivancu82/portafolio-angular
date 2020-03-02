@@ -43,7 +43,7 @@ export class ProductosService {
         this.filtrarProductos( termino );
       });
     } else {
-      // aplicar filtros
+      // Para aplicar filtros
       this.filtrarProductos( termino );
     }
   }
